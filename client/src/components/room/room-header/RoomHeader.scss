@@ -1,0 +1,40 @@
+.room-header {
+}
+
+.top-bar {
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+  .room-header .lock-icon {
+    margin-right: 10px;
+  }
+
+  .room-header .room-header-info {
+    float: left;
+    clear: both;
+    padding: 10px 0 0 0;
+    height: 60px;
+  }
+
+    .room-header-info h3 {
+      text-indent: 8px;
+      margin-bottom: 0;
+      font-size: 20px;
+      line-height: 40px;
+      color: white;
+      font-weight: bolder;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    }
+
+.room-header .room-header-info p {
+  line-height: 50px;
+  margin: 0 0 0 10px;
+  float: left;
+}
+
+.go-to-room {
+  padding: 10px 0 0 0;
+}
+  .go-to-room input {
+    margin-bottom: 0;
+  }

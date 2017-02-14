@@ -1,0 +1,68 @@
+
+.room-queue {
+
+}
+
+  .room-queue .room-queue-list {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  .room-queue .queue-entry {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+    background: white;
+    margin-bottom: 2px;
+  }
+    .room-queue .queue-entry h5 {
+      margin-bottom: 0;
+      margin-top: 5px;
+    }
+
+  .room-queue .queue-entry-actions {
+    float: right;
+    padding: 0 10px 0 0;
+  }
+    .room-queue .queue-entry-actions a {
+      float: right;
+      clear: both;
+      width: 16px;
+      text-align: center;
+      font-size: 14px;
+      color: rgb(59,120,162);
+    }
+
+  .room-queue .queue-entry-addedBy {
+    color: #888;
+    margin: 0 !important;
+  }
+
+.room-queue .queue-entry-tn, .room-queue .queue-entry-tn img {
+  float: left;
+  height: 66px;
+  min-width: 88px;
+}
+
+.room-queue .queue-entry-info {
+  float: left;
+  padding: 0 0 0 10px;
+  width: calc(100% - 122px);
+  height: 66px;
+}
+
+.room-queue .queue-entry-info h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.room-queue .center, .room-queue .center h5 {
+  height: 66px;
+  width: 100%;
+  margin: 0;
+  line-height: 56px;
+  text-align: center;
+}

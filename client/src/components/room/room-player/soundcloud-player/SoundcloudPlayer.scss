@@ -1,0 +1,57 @@
+.soundcloud-player, .soundcloud-player_internal {
+  height: 60px;
+  width: 100%;
+  clear: both;
+  float: left;
+  color:black;
+}
+
+
+.soundcloud-player .player-info {
+  height: 60px;
+  width: calc(100% - 186px);
+  float: left;
+  padding: 5px 0 0 10px;
+  position: relative;
+  z-index: 4;
+}
+
+.soundcloud-player .player-info h5 {
+  margin-bottom: 0;
+  height: 30px;
+}
+
+.soundcloud-player .player-actions {
+  float: right;
+  width: 60px;
+}
+   .player-actions a.button {
+    height: 30px;
+    float: left;
+    width: 60px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+
+.player-progress, .player-seek {
+  z-index: 2;
+  position: absolute;
+  height: 60px;
+  left: 80px;
+  width: calc(100% - 140px);
+}
+
+.player-seek {
+  z-index: 10;
+}
+
+.player-seek .sb-soundplayer-progress-inner {
+  height: 100%;
+  background: transparent;
+}
+
+.player-progress .sb-soundplayer-progress-inner {
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}

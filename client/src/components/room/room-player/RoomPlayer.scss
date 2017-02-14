@@ -1,0 +1,86 @@
+.room-player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  box-shadow:  1px -1px 2px rgba(0, 0, 0, 0.5);
+  background: white;
+}
+
+  .room-player .player-tn, .room-player .player-tn img {
+    float: left;
+    height: 60px;
+    width: 80px;
+    border: none;
+    background: black;
+  }
+
+  .room-player .player-info {
+    float: left;
+    height: 60px;
+    width: calc(100% - 150px);
+    padding: 5px 0 0 10px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .room-player .player-info h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+  }
+
+  .room-player .player-actions, .room-player .player-actions a{
+    float: right;
+    width: 60px;
+    background-color: rgb(59,120,162);
+    padding: 0;
+    line-height: 30px;
+  }
+
+  .scp {
+    float: left;
+    width: 100%;
+  }
+
+  .sc-play-pause, .sc-play-pause img {
+    height: 60px;
+    width: 80px;
+    float: left;
+    overflow: hidden;
+    background: black;
+  }
+
+  .sc-play-pause img {
+    position: absolute;
+  }
+
+  .sc-pp-btn {
+    height: 60px;
+    width: 80px;
+    z-index: 10;
+    float: left;
+    position: absolute;
+  }
+    .sb-soundplayer-play-icon {
+      height: 30px;
+      width: 30px;
+      color: white;
+    }
+
+  .sc-progress {
+    z-index: 2;
+    position: absolute;
+    height: 60px;
+    left: 100px;
+    width: calc(100% - 207px);
+  }
+
+  .sc-track-info {
+    float: left;
+    position: relative;
+    z-index: 5;
+    padding: 10px 0 0 10px;
+  }
+
